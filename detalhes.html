@@ -8,20 +8,24 @@
   <body>
     <!-- Cabeçalho e Menu -->
     <header>
-      <div class="logo">
-        <img src="img/logo.png" alt="Logo Meu Setup" height="40" />
-        <span>Meu Setup</span>
-      </div>
       <nav>
+        <img src="img/logo.png" height="20" />
         <a href="index.html">Início</a>
         <a href="detalhes.html">Detalhes</a>
         <a href="sobre.html">Sobre o Autor</a>
+        <div class="dropdown">
+          <a href="admin-login.html">Admin</a>
+          <div class="dropdown-content">
+            <a href="admin-produtos.html">Produtos</a>
+            <a href="admin-usuarios.html">Usuários</a>
+          </div>
+        </div>
       </nav>
     </header>
 
     <main>
       <h1>Detalhes do Produto</h1>
-      <!-- Exemplo para o teclado, repita para os outros produtos conforme necessário -->
+      <!-- Exemplo para o teclado -->
       <div class="produto-detalhe">
         <img src="img/teclado.jpg" alt="Teclado Mecânico RGB" />
         <h2>Teclado Mecânico RGB</h2>
@@ -32,8 +36,29 @@
           <li>Compatível com Windows e Mac</li>
         </ul>
       </div>
+      <!-- Exemplo para o fone -->
+      <div class="produto-detalhe">
+        <img src="img/fone.jpg" alt="Fone Stereo Gamer" />
+        <h2>Fone de Ouvido Stereo Gamer</h2>
+        <ul>
+          <li>Preço: R$ 80,00</li>
+          <li>Iluminação RGB personalizável</li>
+          <li>Alta durabilidade</li>
+          <li>Compatível com Windows e Mac</li>
+        </ul>
+      </div>
+      <!-- Exemplo para o teclado, repita para os outros produtos conforme necessário -->
+      <div class="produto-detalhe">
+        <img src="img/mouse.jpg" alt="Mouse Gamer RGB" />
+        <h2>Mouse Gamer RGB</h2>
+        <ul>
+          <li>Preço: R$ 100,00</li>
+          <li>Iluminação RGB personalizável</li>
+          <li>Alta durabilidade</li>
+          <li>Compatível com Windows e Mac</li>
+        </ul>
+      </div>
     </main>
-
     <!-- Rodapé -->
     <footer>
       <p>
